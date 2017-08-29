@@ -99,6 +99,8 @@ categories {
  
 # Dia dos
 
+>What element should I use to encode a line in a poem?
+
 > 6.2 Components of the Verse Line
 
 seg (arbitrary segment) represents any segmentation of text below the ‘chunk’ level.
