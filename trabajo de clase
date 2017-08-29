@@ -1,0 +1,93 @@
+http://bit.ly/2wbCaJ9
+
+Visual versus Semantic Encoding
+
+
+Activity
+
+1) With a pen or pencil, draw a box around examples of these data types and give each data type a “label”.
+
+2) Figure out how many different kinds of data are on this page.
+
+3) Identify or explain how these data types are communicated to you as a human reader.
+
+4) Identify what kinds of relationships between data types are communicated and how is this communicated.
+
+Question: Were there any data types or relationships presented in ambiguous or unclear ways? What made these features ambiguous?
+What is XML and How to Use It
+What is XML
+
+XML stands for eXtensible Markup Language and it is a specific technology or tool designed to allow us to semantically describe a text, document, or any kind of structured information.
+Styling with Cascading Style Sheets (CSS)
+
+Because we have encoded our text semantically, we can now use this logic to programmatically style and restyle our text.
+
+Styles can be added by linking a stylesheet to our XML document like so:
+
+<?xml-stylesheet type="text/css" href="mystyles.css"?>
+Activity 1) With a pen or pencil, draw a box around examples of these data types and give each data type a “label”. 2) Figure out how many different kinds of data are on this page. 3) Identify or explain how these data types are communicated to you as a human reader. 4) Identify what kinds of relationships between data types are communicated and how is this communicated. Question: Were there any data types or relationships presented in ambiguous or unclear ways? What made these features ambiguous?
+
+XML Sistema independiente de marcado semántico.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="juana.css"?>
+
+<Essay>
+    <info>
+
+        <title> La inteligencia de las flores fragmento </title>
+        <author> Maurice Maeterlink </author>
+        <year>1985 </year>
+        <person gender="male"/>
+    </info>
+
+    <text>
+        <heading> III </heading> 
+    
+     
+        <p>   
+            
+            Esa necesidad de movimiento, ese apetito de espacio, en
+            la mayor parte de las plantas, se manifiesta a la vez en la flor y en el fruto; o, en
+            todo caso, no revela en él más que una experiencia, una previsión menos compleja. Al
+            revés de lo que sucede en el reino animal, y a causa de la terrible ley de inmovilidad
+            absoluta de la planta
+            <categories> <semilladificultades> el primero y peor enemigo de la
+                semilla es el tronco paterno. </semilladificultades> </categories>
+              </p>
+        
+        <p> Nos
+            encontramos en un mundo extraño, en que los padres, incapaces de cambiar de sitio, saben
+            que están condenados a matar de hambre o a ahogar a sus vástagos. <semilladestino>Toda
+                semilla que cae al pie del árbol o de la planta es perdida o germinará en la
+                miseria. </semilladestino> <semillaestrategias>De ahí el inmenso esfuerzo para sacudir el yugo y
+            conquistar el espacio.
+                </semillaestrategias> <semillaestrategias>e ahí los maravillosos sistemas de diseminación, de propulsión,
+            de aviación, que en todas partes encontramos en el bosque y en el llano, entre ellos,
+            por no citar de paso más que algunos de los más curiosos: la hélice aérea o sámara del
+            Arce, la bráctea del Tilo, la máquina de cernerse del Cardo, del Amargón y del Salsifí;
+            los resortes explosivos del Euforbio; la extraordinaria pera surtidora de la Momórdica;
+            y mil otros mecanismos inesperados y asombrosos</semillaestrategias>,<semillaestrategias> pues puede decirse que no hay semilla
+                que no haya inventado algún procedimiento particular para evadirse de la sombra materna </semillaestrategias>
+            </p>
+        
+    </text>
+</Essay>
+
+
+
+title {
+    display:block; color:green;
+    
+}
+
+p { 
+display:block; color: blue; 
+
+}
+
+categories {
+    display:block; color:#F781F3 ;
+    
+}
