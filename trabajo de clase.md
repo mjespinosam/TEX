@@ -99,7 +99,7 @@ categories {
  
 # Dia dos
 
-6.2 Components of the Verse Line
+> 6.2 Components of the Verse Line
 
 seg (arbitrary segment) represents any segmentation of text below the ‘chunk’ level.
 
@@ -118,7 +118,7 @@ msPart (manuscript part) contains information about an originally distinct manus
 msFrag (manuscript fragment) contains information about a fragment of a scattered manuscript now held as a single unit or bound into a larger manuscript.
 
 
-Question: What element (or elements) should I use to add an image?
+ >Question: What element (or elements) should I use to add an image?
 
 <figure> groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4 Specific Elements for Graphic Images]
 <figure>
