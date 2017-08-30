@@ -148,3 +148,8 @@ The graphic and binaryObject elements form part of the common core module, and a
 
 The figure element is used to contain images, captions, and textual descriptions of the pictures. The images themselves are specified using the graphic element, whose url attribute provides the location of an image. For example:
 
+# TEI WEB EDITOR
+
+https://tei-web-editor.herokuapp.com/#
+
+https://mjespinosam.github.io/simple-tei-edition/
